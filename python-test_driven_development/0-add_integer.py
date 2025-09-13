@@ -11,9 +11,9 @@ def add_integer(a, b=98):
     Returns the sum of a and b as integers.
     Floats are casted to integers before addition.
     """
-    if not isinstance(a, (int, float)):
+    if isinstance(a, bool) or not isinstance(a, (int, float)):
         raise TypeError("a must be an integer")
-    if not isinstance(b, (int, float)):
+    if isinstance(a, bool) or not isinstance(b, (int, float)):
         raise TypeError("b must be an integer")
     a_int = int(a)
     b_int = int(b)
