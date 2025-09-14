@@ -1,0 +1,28 @@
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+# Correct usage
+>>> text_indentation("Hello world. How are you?")
+Hello world.
+
+How are you?
+
+>>> text_indentation("Wait: what?")
+Wait:
+
+what?
+
+>>> text_indentation("No punctuation here")
+No punctuation here
+
+# Error cases
+>>> text_indentation(123)
+Traceback (most recent call last):
+    ...
+TypeError: text must be a string
+
+>>> text_indentation(None)
+Traceback (most recent call last):
+    ...
+TypeError: text must be a string
+
+>>> text_indentation("")
