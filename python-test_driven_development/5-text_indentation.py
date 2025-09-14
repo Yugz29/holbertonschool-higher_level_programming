@@ -26,4 +26,4 @@ def text_indentation(text):
             print()
             segment = ""
     if segment:
-        print(segment.strip())
+        print(segment.strip(), end="")
