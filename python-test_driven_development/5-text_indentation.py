@@ -23,6 +23,7 @@ def text_indentation(text):
         if char in ".?:":
             print(segment.strip(), end="")
             print()
+            print()
             segment = ""
     if segment:
         print(segment.strip(), end="")
