@@ -28,3 +28,10 @@
 ['banana', 'apple', 'cherry']
 >>> my_list3.print_sorted()
 ['apple', 'banana', 'cherry']
+
+# Test with empty list
+>>> my_list_empty = MyList()
+>>> print(my_list_empty)
+[]
+>>> my_list_empty.print_sorted()
+[]
