@@ -39,13 +39,13 @@ class Circle(Shape):
         """
         Calculates the area of Circle
         """
-        return math.pi * self.radius ** 2
+        return math.pi * abs(self.radius) ** 2
 
     def perimeter(self):
         """
         Calculates the perimeter of Circle
         """
-        return 2 * math.pi * self.radius
+        return 2 * math.pi * abs(self.radius)
 
 
 class Rectangle(Shape):
