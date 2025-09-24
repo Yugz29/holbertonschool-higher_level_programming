@@ -12,8 +12,12 @@ class CountedIterator:
         """
         Increment the counter and return the next element
         """
-        self.count += 1
-        return next(self.iterator)
+        try:
+            item = next(self.iterator)
+            self.count += 1
+            return item
+        except StopIteration:
+            raise
 
     def get_count(self):
         """
