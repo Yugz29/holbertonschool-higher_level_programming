@@ -4,9 +4,9 @@
 
 def append_write(filename="", text=""):
     """
-    Adds text to the end of a file and returns the number of 
+    Adds text to the end of a file and returns the number of
     characters written.
-    
+
     Returns:
         int: The number of characters added to the file.
     """
