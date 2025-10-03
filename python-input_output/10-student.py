@@ -29,4 +29,4 @@ class Student:
         for attribut in attrs:
             if hasattr(self, attribut):
                 filtered[attribut] = getattr(self, attribut)
-            return filtered
+        return filtered
