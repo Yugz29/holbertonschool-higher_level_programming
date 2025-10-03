@@ -25,9 +25,8 @@ class Student:
         """
         if attrs is None:
             return self.__dict__
-        else:
-            filtered = {}
-            for attribut in attrs:
-                if hasattr(self, attribut):
-                    filtered[attribut] = getattr(self, attribut)
-                return filtered
+        filtered = {}
+        for attribut in attrs:
+            if hasattr(self, attribut):
+                filtered[attribut] = getattr(self, attribut)
+            return filtered
