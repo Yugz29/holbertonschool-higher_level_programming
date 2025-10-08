@@ -4,7 +4,7 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-users = {"jane": {"name": "Jane", "age": 28, "city": "Los Angeles"}}
+users = {}
 
 
 @app.route("/")
@@ -40,6 +40,7 @@ def add_user():
         return jsonify({"error": "Username is required"}), 400
 
     users[username] = {
+        "username": username,
         "name": data.get("name"),
         "age": data.get("age"),
         "city": data.get("city")
