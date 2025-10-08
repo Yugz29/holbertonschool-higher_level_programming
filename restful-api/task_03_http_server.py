@@ -35,7 +35,10 @@ class MyHandler(BaseHTTPRequestHandler):
             self.wfile.write(json_info.encode("utf-8"))
 
         else:
-            self.send_error(404, "Endpoint not found")
+            self.send_response(404)
+            self.send_header("Content-Type", "text/plain")
+            self.end_headers()
+            self.wfile.write(b"Endpoint not found")
 
 
 if __name__ == "__main__":
