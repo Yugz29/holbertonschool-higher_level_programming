@@ -17,7 +17,7 @@ class MyHandler(BaseHTTPRequestHandler):
             self.end_headers()
             data = {"name": "John", "age": 30, "city": "New York"}
             json_data = json.dumps(data)
-            self.wfile.write(json_data.encode())
+            self.wfile.write(json_data.encode("utf-8"))
 
         elif self.path == "/status":
             self.send_response(200)
@@ -32,7 +32,7 @@ class MyHandler(BaseHTTPRequestHandler):
             info = {"version": "1.0", "description":
                     "A simple API built with http.server"}
             json_info = json.dumps(info)
-            self.wfile.write(json_info.encode())
+            self.wfile.write(json_info.encode("utf-8"))
 
         else:
             self.send_error(404, "Endpoint not found")
