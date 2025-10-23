@@ -1,2 +1,3 @@
 # Ignore all files with "main" in the name
 *main*
+SQL_more_queries/ssh
