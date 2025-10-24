@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 import MySQLdb
 import sys
+"""
+This module connects to a MySQL database and lists all states
+sorted by their ID in ascending order.
+"""
 
 
 if __name__ == "__main__":
