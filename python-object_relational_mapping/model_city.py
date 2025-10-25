@@ -5,6 +5,7 @@ Contains the class definition of a City, linked to the 'cities' table.
 from sqlalchemy import Column, Integer, String, ForeignKey
 from model_state import Base
 
+
 class City(Base):
     """City class linked to the MySQL table 'cities'"""
     __tablename__ = 'cities'
