@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Adds the State object 'Louisiana' to the database hbtn_0e_6_usa
+Add the State object 'Louisiana' to the database hbtn_0e_6_usa
 and prints its id after creation.
 """
 import sys
