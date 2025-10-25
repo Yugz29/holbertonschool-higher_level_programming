@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 """
 This script lists all states from the database where the state's name matches
-the given argument.
+the given argument
 """
 import MySQLdb
 import sys
+
 
 if __name__ == "__main__":
     username = sys.argv[1]

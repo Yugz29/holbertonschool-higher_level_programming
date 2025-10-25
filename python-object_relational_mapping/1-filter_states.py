@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """
-This module connects to a MySQL database and lists all states
-from the table 'states' where the name starts with the letter 'N'.
-Results are sorted in ascending order by their ID.
+List all states from the table 'states'
+where the name starts with the letter 'N'
+Results are sorted in ascending order by their ID
 """
 import MySQLdb
 import sys
