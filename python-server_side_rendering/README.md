@@ -36,7 +36,6 @@ This module demonstrates:
 | `task_02_logic.py` | Implement logic and conditions in templates                          |
 | `task_03_files.py` | Display data from JSON or CSV files in templates                     |
 | `task_04_db.py`    | Extend dynamic data to include SQLite database content               |
-| `README.md`        | Overview of server-side rendering exercises                          |
 
 ---
 
