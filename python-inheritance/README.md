@@ -1,4 +1,4 @@
-# Python Inheritance Exercises
+# Python Inheritance
 
 ## Overview
 
