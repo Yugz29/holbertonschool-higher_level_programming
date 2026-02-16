@@ -21,21 +21,6 @@ This module demonstrates how to:
 
 ---
 
-## Typical Files / Tasks
-
-| File / Script                 | Purpose                                    |
-| ----------------------------- | ------------------------------------------ |
-| `0-select_elements.js`        | Selecting DOM elements by ID and class     |
-| `1-modify_content.js`         | Changing text and HTML content             |
-| `2-modify_attributes.js`      | Updating element attributes                |
-| `3-create_remove_elements.js` | Creating and removing nodes dynamically    |
-| `4-event_listeners.js`        | Adding event listeners and handling events |
-| `README.md`                   | Overview of DOM manipulation tasks         |
-
-> File names may vary — ensure each script contains comments explaining its purpose.
-
----
-
 ## Example Snippet
 
 ```javascript
