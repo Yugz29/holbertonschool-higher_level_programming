@@ -51,19 +51,6 @@ This query selects the first and last names of employees living in San Francisco
 
 ---
 
-## How to Run SQL Files
-
-Use a MySQL server (or any compatible SQL DBMS):
-
-```sh
-mysql -u root -p < 0-create_database.sql
-mysql -u root -p database_name < 1-select_basic.sql
-```
-
-Replace `database_name` with the database created in the first script.
-
----
-
 ## Skills Demonstrated
 
 This project highlights your ability to:
