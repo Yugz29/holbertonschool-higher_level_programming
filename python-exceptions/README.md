@@ -1,4 +1,4 @@
-# Python Exceptions Exercises
+# Python Exceptions
 
 ## Overview
 
