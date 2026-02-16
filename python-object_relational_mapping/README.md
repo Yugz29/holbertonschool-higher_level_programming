@@ -48,7 +48,6 @@ This module demonstrates:
 | `14-model_city_fetch_by_state.sql` | SQL setup for city fetch by state        |
 | `model_city.py`                    | Define `City` class for ORM              |
 | `model_state.py`                   | Define `State` class for ORM             |
-| `README.md`                        | Overview of ORM exercises                |
 
 ---
 
