@@ -1,4 +1,4 @@
-# Python Import Modules Exercises
+# Python Import Modules
 
 ## Overview
 
