@@ -33,8 +33,6 @@ This module demonstrates:
 | `5-square.py` | Implementing a method to print the square (`my_print`)            |
 | `6-square.py` | Removed (no longer used)                                          |
 
-> Each file contains comments explaining the purpose and expected behavior.
-
 ---
 
 ## Example Snippet
